@@ -1,8 +1,8 @@
 #include <SDL2/SDL.h>
 #include <stdlib.h>
-#include <presenter.h>
+#include <show.h>
 
-int main_loop(){
+int main_vis_loop(){
     if (SDL_Init(SDL_INIT_VIDEO) == 0) {
         SDL_Window* window = NULL;
         SDL_Renderer* renderer = NULL;

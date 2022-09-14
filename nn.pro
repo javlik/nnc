@@ -4,11 +4,19 @@ CONFIG -= app_bundle
 CONFIG -= qt
 
 SOURCES += \
-        main.c \
-        presenter.c
+        ga.c \
+        nn.c \
+        show.c \
+        test.c \
+        utils.c
 
 HEADERS += \
+    ga.h \
     nn.h \
-    presenter.h
+    show.h \
+    utils.h
 
 LIBS += -lSDL2
+
+DISTFILES += \
+    Makefile
